@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Inter">
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Chirag Kawediya</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 popup">
+                <h3 id="name">Chirag Kawediya</h3>
+                <p>
+                    Welcome to my website. I'm Chirag, an undergraduate at <a href="https://uchicago.edu">UChicago</a>, studying
+                    mathematics and computer science. I'm an aspiring product manager with experience as a software engineer. I'm
+                    passionate about delivering interesting and impactful products to end users, and am skilled in translating
+                    human problems into machine ones. My area of focus has been in data science and data infrastructure, particularly
+                    in the context of machine learning.
+                    <br />
+                    -
+                    <br />
+                    I am currently working with <a href="https://raulcastrofernandez.com">Dr. Raul Castro Fernandez</a>
+                    in the ChiData research group at UChicago on the <a
+                        href="https://raulcastrofernandez.com/papers/ver.pdf">Ver</a> project,
+                    focused on finding views in an interactive, general way by profiling data efficiently. We recently
+                    <a href="https://dl.acm.org/doi/10.1145/3626246.3654748">published a demo</a> of the project. What
+                    I liked about it is that it's user-first, and practical. Despite this,
+                    it remains at the forefront of database engineering. It is a demonstration of my belief that there
+                    isn't really a <a href="https://www.youtube.com/watch?v=oeqPrUmVz-o&ab_channel=JonathanField">divide between engineers and users,</a> just a lack of communication.
+                    <br />
+                    -
+                    <br />
+                    I am the Program Director for <a href="https://whpk.org">WHPK</a>, the University of Chicago's
+                    community radio station.
+                    I am also a DJ, web developer, board member, and the international music format chief. When I DJ
+                    on the radio, I especially like to play electronic music, but you'll hear a little bit of everything on my show.
+                    Tune in in the fall to hear me on the airwaves.
+                </p>
+                <p class="">Email: <span class="email"> echo 'Y2hpcmFnMDNrYXdlZGl5YUBnbWFpbC5jb20K' | base64 --decode
+                    </span></p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 align-middle">
+                <img src="images/dj.gif" alt="Chirag Kawediya" class="img-fluid imagepop align-middle" />
+        </div>
+
+        <div class="row">
+            <div clas="col-auto">
+                <div class="row">
+                    <div class="col-auto">
+                        <p><a href="/projects">Projects</a></p>
+                    </div>
+                    <div class="col-auto">
+                        <p><a href="https://github.com/chirag03k">Github</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+        gsap.from(".popup", { opacity: 0, y: 100, duration: 1, delay: 0.5});
+        gsap.from(".imagepop", { opacity: 0, x: 100, duration: 1, delay: 0.75});
+    </script>
+</body>
