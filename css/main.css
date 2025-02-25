@@ -1,7 +1,8 @@
 body {
-    font-family: 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace;
-    background-color: #eee;
+    font-family: 'Inter', sans-serif; /* 'Inter', 'Consolas', 'Menlo', 'Monaco', 'Courier New', monospace; */
+    background-color: #000000;
     margin: 40px;
+    color: #B0B0B0;
 }
 
 .box {
@@ -17,14 +18,14 @@ body {
     overflow: hidden;
 }
 
-h3 {
+/* h3 {
     font-size: 16px;
     font-weight: bold;
 }
 
 p {
     font-size: 14px;
-}
+} */
 
 .email {
     color:rgb(0, 107, 0);
